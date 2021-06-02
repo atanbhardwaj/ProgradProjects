@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting</title>
+    <style>
+        #card {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #button {
+            width: 180px;
+            height: 50px;
+            font-size: 16px;
+            background-color: #f50a5f;
+            color: white;
+            border-radius: 4px;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://cdn.progradjunior.org/greetn/greetnlogo.svg" alt="logo" />
+    </header>
+    <div class="background-holder">
+        <!--   iteration 1: Enter images here -->
+        <img src="https://cdn.progradjunior.org/greetn/b8.png" alt="bg8" id="bg8" width="1000" height="500">
+        <img src="https://cdn.progradjunior.org/greetn/b7.png" alt="bg7" id="bg7" width="1000" height="500">
+        <img src="https://cdn.progradjunior.org/greetn/b5.png" alt="bg5" id="bg5" width="1000" height="500">
+    </div>
+    <div class="greeting-container">
+        <div id="card">
+            <span id="cardText"></span>
+        </div>
+        <div class="message">
+            <!-- Iteration 2: Setup the message area -->
+
+            <h3>Add a message to your Card</h3>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <div id="button">
+                Generate Card
+            </div>
+
+        </div>
+    </div>
+    <script>
+        const bg8 = document.getElementById("bg8");
+        const card = document.getElementById("card");
+
+        bg8.onclick = () => {
+            card.style.backgroundImage = `url(${bg8.src})`;
+        }
+
+        bg7.onclick = () => {
+            card.style.backgroundImage = `url(${bg7.src})`;
+        }
+
+        bg5.onclick = () => {
+            card.style.backgroundImage = `url(${bg5.src})`;
+        }
+
+        const messageInput = document.getElementById("message");
+        const cardText = document.getElementById("cardText");
+        const button = document.getElementById("button");
+
+        button.onclick = () => {
+            cardText.textContent = messageInput.value;
+        }
+    </script>
+</body>
+
+</html>
