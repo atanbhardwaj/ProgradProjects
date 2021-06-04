@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url("https://i1.faceprep.in/ProGrad/minion-background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+section{
+    width: 500px;
+    background-color: white;
+    margin:auto;
+    padding: 10px 0;
+}
+
+input, textarea{
+    margin-top: 10px 0px;
+}
+
+label{
+    font-weight: bold;
+}
+
+div{
+    text-align: center;
+}
+
+p, input[type="text"], input[type="number"], textarea, form{
+    width: 350px;
+    padding: 8px;
+}
+
+p, form{
+    margin: auto;
+}
+
+input[type="submit"]{
+    background-color: #1e90ff;
+    color: white;
+    display: block;
+    margin: auto;
+    width:150px;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="checkbox"]{
+    margin-left: 5px;
+    margin-right: 5px;
+}
