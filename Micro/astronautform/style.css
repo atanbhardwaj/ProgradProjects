@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    background: url('https://i1.faceprep.in/ProGrad/sky-moon-bg.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%; 
+}
+
+#astronaut1{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 500px;
+    animation: floating 5s infinite ease-in;
+}
+
+#astronaut2{
+    position: absolute;
+    height: 425px;
+    top: 30%;
+    left: 30%;
+    animation: floating 4s infinite ease-in;
+}
+
+
+.block-display{
+    display: block;
+}
+
+
