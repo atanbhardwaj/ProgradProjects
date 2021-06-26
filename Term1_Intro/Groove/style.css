@@ -27,7 +27,7 @@ header, footer{
 }
 
 .container{
-    height: 650px;
+    min-height: 650px;
     padding-top: 5%;
 }
 
@@ -64,6 +64,8 @@ h2, table{
 
 #mobile{
     width: 200px;
+    text-align: center;
+    padding: 5px;
 }
 
 #quantity{
@@ -81,4 +83,15 @@ table, th, tr, td{
 
 ht{
     background-color: #27AE60;
+}
+
+
+tr:hover{
+    background-color: #EDEAE4;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
 }
