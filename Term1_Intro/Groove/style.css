@@ -95,3 +95,7 @@ a{
     text-decoration: none;
     color: white;
 }
+
+h4{
+    display: none;
+}
