@@ -11,20 +11,20 @@
 
 <body>
     <header>
-        <img src="https://i1.faceprep.in/ProGrad/groove-logo.png" alt="Groove Logo">
+        <img id="logo" src="https://i1.faceprep.in/ProGrad/groove-logo.png" alt="Groove Logo">
     </header>
 
-    <div>
+    <div class="top container">
         <h1>Welcome to Groove!</h1>
         <p>Select your favorite groceries, confirm your mobile number<br /> and get them delivered in 30 mins -
             <b>Straight
                 from
                 the Farm</b>
         </p>
-        <div>What’s in store?</div>
+        <div class="button store">What’s in store?</div>
     </div>
 
-    <div>
+    <div class="table container">
         <h2> Here’s What Is In Store Today</h2>
         <table>
 
@@ -42,39 +42,41 @@
                 <td><img src=" https://i1.faceprep.in/ProGrad/apple.png" alt="" srcset=""></td>
                 <td>Green Apple</td>
                 <td>INR 22/- Per Kg</td>
-                <td>520 Calories, 3.0 g Protein, 2.0 g Fat, 24 g Fiber.</td>
-                <td><input type="number" name="" id=""></td>
+                <td>520 Calories, 3.0 g <br>Protein, 2.0 g Fat, 24 g Fiber.</td>
+                <td><input id="quantity" type="number" name="" id=""></td>
             </tr>
             <tr>
                 <td><input type="checkbox" name="" id=""></td>
                 <td><img src="https://i1.faceprep.in/ProGrad/strawberry.png" alt="" srcset=""></td>
                 <td>Strawberries</td>
                 <td>INR 108/- Per Box</td>
-                <td>424 Calories, 8.88 g Protein, 26.4 g Fiber.</td>
-                <td><input type="number" name="" id=""></td>
+                <td>424 Calories, 8.88 g <br>Protein, 26.4 g Fiber.</td>
+                <td><input id="quantity" type="number" name="" id=""></td>
             </tr>
             <tr>
                 <td><input type="checkbox" name="" id=""></td>
                 <td><img src="https://i1.faceprep.in/ProGrad/carrot.png" alt="" srcset=""></td>
                 <td>Carrots</td>
                 <td>INR 26/- Per Kg</td>
-                <td> 410 Calories, 9.0 g Protein, 2.0 g Fat, 28.0 g Fiber.</td>
-                <td><input type="number" name="" id=""></td>
+                <td> 410 Calories, 9.0 g <br>Protein, 2.0 g Fat, 28.0 g Fiber.</td>
+                <td><input id="quantity" type="number" name="" id=""></td>
             </tr>
             <tr>
                 <td><input type="checkbox" name="" id=""></td>
                 <td><img src="https://i1.faceprep.in/ProGrad/spinach.png" alt="" srcset=""></td>
                 <td>Spinach</td>
                 <td>INR 10/- Per Piece</td>
-                <td>230 Calories, 29.0 g Protein, 4.0 g Fat, 22.0 g Fiber.</td>
-                <td><input type="number" name="" id=""></td>
+                <td>230 Calories, 29.0 g<br> Protein, 4.0 g Fat, 22.0 g Fiber.</td>
+                <td><input id="quantity" type="number" name="" id=""></td>
             </tr>
 
 
         </table>
+        <br>
         <p>One last step to place your order.<br />Enter your mobile number and you are done!</p>
-        <input type="text">
-        <div> <b>Buy Now</b></div>
+        <br><input id="mobile" type="text">
+        <br><br>
+        <div class="button"> <b>Buy Now</b></div>
     </div>
 
     <footer>
