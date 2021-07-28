@@ -98,6 +98,7 @@ header h5{
 
 .buy{
     margin-top: 15px;   
+    padding-bottom: 50px;
 }
 
 footer{
@@ -140,4 +141,36 @@ h6{
 
 h3, h2{
     margin-bottom: 10px;
+}
+
+.container{
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        height: 200px;
+        font-size: 15px;
+        text-align: start;
+    }
+
+    header h1{
+        font-size: 4vh;
+    }
+
+    header h5{
+        font-size: 15px;
+    }
+
+    .header-text{
+        padding: 0% 60% 5% 5%;
+    }
+
+    body{
+        text-align: center;
+    }
+
+    .container{
+        justify-content: center;
+    }
 }
